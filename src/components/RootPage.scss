@@ -1,0 +1,12 @@
+:local .cartButtons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+:local .cartButtonsSeparator {
+  width: 14px;
+}

@@ -1,0 +1,81 @@
+:local .container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ccc;
+}
+
+:local .iconContainer {
+  display: flex;
+  height: 44px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+:local .subproducts {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+:local .subproduct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 1em;
+  border-bottom: 1px solid #ccc;
+  user-select: none;
+}
+
+:local .subproductTitleContainer.addDisabled {
+  opacity: 0.5;
+}
+
+:local .subproduct:last-child {
+  border-bottom: none;
+}
+
+:local .subproductTitleContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+:local .subproductName {
+  font-weight: 600;
+}
+
+:local .subproductStock {
+  color: #888;
+}
+
+:local .subproductRemove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+}
+
+:local .subproductRemove i {
+  color: #b71c1c;
+}
+
+:local .subproductPriceQuantity {
+  min-width: 95px;
+  text-align: right;
+}
+
+:local .subproductQuantity {
+  color: #4CAF50;
+}
+
+:local .subproductQuantityZero {
+  color: #888;
+}
+
+:local .subproductPrice {
+  font-weight: 600;
+}

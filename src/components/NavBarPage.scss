@@ -1,0 +1,17 @@
+:local .content {
+  margin-top: 50px;
+}
+
+:local .navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+:local .navbarBrand {
+  flex: 1;
+}
+
+:local .navbarButtonContainer {
+  padding-right: 14px;
+}
